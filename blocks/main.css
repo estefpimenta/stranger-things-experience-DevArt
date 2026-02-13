@@ -16,6 +16,8 @@
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -29,7 +31,7 @@
 .cities__container {
     display: flex;
     flex-direction: column;
-    
+
     
     gap: 20px;
 }
@@ -38,7 +40,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+
 }
 
 .cities-container-p {
@@ -70,3 +72,56 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.9);
     width: fit-content;
 }
+
+.cities__container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cities__container-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    width: 350px;
+}
+
+.city-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.city-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+    padding: 0 8px;
+}
+
+.city-name {
+    font-family: "PoppinsRegular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 108%;
+    letter-spacing: 0%;
+    color: #fdfdfd;
+}
+
+.city-ticket {
+     font-family: "PoppinsRegular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 108%;
+    letter-spacing: 0%;
+    color: #fdfdfd;
+}
+
