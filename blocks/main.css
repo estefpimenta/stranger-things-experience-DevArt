@@ -73,6 +73,8 @@
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.9);
     width: fit-content;
+
+    cursor: pointer;
 }
 
 .cities__container-cards {
