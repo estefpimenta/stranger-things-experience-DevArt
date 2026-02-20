@@ -5,16 +5,19 @@
 @font-face {
     font-family: "BenguiatBold";
     src: url(./fonts/Benguiat\ Bold.ttf), format("truetype");
+    src: url(./fonts/Benguiat\ Bold.woff2), format("woff2");
 }
 
 @font-face {
     font-family: "PoppinsMedium";
     src: url(./fonts/Poppins-Medium.ttf), format("truetype");
+    src: url(./fonts/Poppins-Medium.woff2), format("woff2");
 }
 
 @font-face {
     font-family: "PoppinsRegular";
     src: url(./fonts/Poppins-Regular.ttf), format("truetype");
+    src: url(./fonts/Poppins-Regular.woff2), format("woff2");
 }
 
 
