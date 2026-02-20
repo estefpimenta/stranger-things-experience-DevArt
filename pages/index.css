@@ -126,3 +126,28 @@
   }
 
 }
+
+
+/* ========================= */
+/*     MOBILE SMALL (<=480px) */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+  .main__container,
+  .header__card,
+  .cities__container,
+  .thanks__container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+.netflix-logo {
+  width: 70px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  
+}
