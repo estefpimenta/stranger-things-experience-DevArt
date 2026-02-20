@@ -128,3 +128,46 @@
     cursor: pointer;
 
 }
+
+/* ANIMATIONS */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header__card-name,
+.header__card-content {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.header__card-content {
+  animation-delay: 0.3s;
+}
+
+.header__card-button {
+  position: relative;
+  border-bottom: none;
+}
+
+.header__card-button::after {
+
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width 0.3s ease;
+}
+
+.header__card-button:hover::after {
+  width: 100%;
+}

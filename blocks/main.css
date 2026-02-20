@@ -94,8 +94,8 @@
     flex: 1;
     min-width: 280px;
     max-width: 350px;
+    cursor: pointer;
 
-    /* max-width: 350px; */
 }
 
 .city-image {
@@ -250,3 +250,36 @@
     letter-spacing: 0%;
     color: #fdfdfd;
 }
+
+
+/* ANIMATIONS */
+
+.cities__container-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.cities__container-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.cities__container-button {
+  position: relative;
+  border-bottom: none;
+}
+
+.cities__container-button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width 0.3s ease;
+}
+
+.cities__container-button:hover::after {
+  width: 100%;
+}   
