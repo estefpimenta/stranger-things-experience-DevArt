@@ -94,4 +94,4 @@ Reproduzir o layout apresentado no evento e desenvolver uma landing page complet
   https://gustavocampelo.com.br/devart-strangerthings/?utm_source=www.google.com&sck=1771620250976_17716200758936
 
 - 💻 **Projeto Online**  
-  (adicione aqui o link do seu GitHub Pages)
+  https://estefpimenta.github.io/stranger-things-experience-DevArt/
