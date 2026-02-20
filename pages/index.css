@@ -26,6 +26,33 @@
 
 /* ===== RESPONSIVIDADE ===== */
 
+
+/* ========================= */
+/*        TABLET (<=1024px)  */
+/* ========================= */
+
+@media (max-width: 1024px) {
+
+  .header__card, .main__container {
+    padding: 0 40px;
+    gap: 60px;
+  }
+
+  .cities__container-cards {
+    gap: 40px;
+  }
+
+  .comments__container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+
+
+
+
 /* ========================= */
 /*        MOBILE (<=768px)   */
 /* ========================= */

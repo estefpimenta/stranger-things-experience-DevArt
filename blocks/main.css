@@ -11,8 +11,9 @@
     min-height: 100vh;
     
     box-sizing: border-box;
-    max-width: 1400px;
-    margin: 0 auto;
+    width: 100%;
+    /* max-width: 1400px;
+    margin: 0 auto; */
 
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@
 
 .main__container {
     max-width: 1100px;
-    
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,8 +81,9 @@
 .cities__container-cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .cities__container-card {
@@ -89,8 +91,11 @@
     flex-direction: column;
     gap: 20px;
 
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
 
-    width: 350px;
+    /* max-width: 350px; */
 }
 
 .city-image {
