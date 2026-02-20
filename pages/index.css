@@ -21,3 +21,81 @@
 * {
     scroll-behavior: smooth;
 }
+
+
+
+/* ===== RESPONSIVIDADE ===== */
+
+/* ========================= */
+/*        MOBILE (<=768px)   */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  /* ===== HEADER ===== */
+
+  .header__card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 340px;
+  }
+
+  .header__card-name,
+  .header__card-content {
+    width: 100%;
+    align-items: center;
+  }
+
+  .header__card-content {
+    text-align: center;
+  }
+
+  .header__card-description {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  /* ===== MAIN ===== */
+
+  .main__container {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .cities__container-description {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cities__container-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .comments__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.thanks-message {
+    text-align: center;
+  }  
+
+  /* ===== FOOTER ===== */
+
+  .experience__container-social__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .social__container {
+    align-items: center;
+  }
+
+}

@@ -31,14 +31,16 @@
     width: 145px;
 }
 
-.social__links {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 20px;
-    cursor: pointer;
-}
 
+.social__links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
 
 
 
@@ -54,15 +56,7 @@ color: #fdfdfd;
 
 }
 
-.social__links{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: center;
 
-    width: 100%;
-}
 
 .instagram-logo, .facebook-logo, .twitter-logo {
     width: 20px;
@@ -78,8 +72,8 @@ color: #fdfdfd;
 
 .bootom-text {
 font-family: "BenguiatBold";
-font-weight: 7;
-font-style: Bold;
+font-weight: 700;
+font-style: normal;
 font-size: 226px;
 line-height: 1;
 letter-spacing: 0%;
