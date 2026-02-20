@@ -88,3 +88,39 @@ width: 100%;
 position: relative;
 overflow: hidden;
 }
+
+
+.bootom-text-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.bootom-text-track {
+  display: flex;
+  width: max-content;
+  animation: scrollText 30s linear infinite;
+}
+
+.bootom-text-track h1 {
+  font-size: 120px;
+  white-space: nowrap;
+  margin-right: 80px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  cursor: pointer;
+}
+
+/* ANIMATION */
+
+@keyframes scrollText {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.bootom-text-wrapper:hover .bootom-text-track {
+  animation-play-state: paused;
+}
